@@ -9,7 +9,8 @@
 }
 
 .red_cocktail {
-  background-image: asset-url('red_cocktail.jpg');
+  background-image: url('<%= cl_image_path @cocktail.photo.key%>');
+  // background-image: asset-url('red_cocktail.jpg');
   height: 180px;
   background-position: center;
   background-size: cover;
