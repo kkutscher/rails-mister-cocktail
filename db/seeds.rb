@@ -34,7 +34,7 @@ puts "Finished!"
 puts "Cleaning database..."
 Cocktail.destroy_all
 
-puts "Creating ingredients..."
+puts "Creating cocktails..."
 Cocktail.create(name: "Mojito")
 Cocktail.create(name: "Bloody Mary")
 Cocktail.create(name: "Sex on the BEach")
