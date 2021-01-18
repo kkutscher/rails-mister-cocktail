@@ -8,11 +8,17 @@
   <div class="row">
     <% @cocktails.each do |cocktail| %>
       <div class="col-4">
-        <div class="cocktail-card">
-          <h4><%= cocktail.name %></h4>
-          <%= link_to 'More info', cocktail_path(cocktail) %>
+          <div class="cocktail-card">
+            <div class="red_cocktail">
+            </div>
+            <div class="cocktail-card-content">
+              <h4><%= cocktail.name %></h4>
+              <br>
+              <%= link_to 'More info', cocktail_path(cocktail) %>
+            </div>
+          </div>
         </div>
-      </div>
-    <% end %>
+      <% end %>
+    </div>
+
   </div>
-</div>
