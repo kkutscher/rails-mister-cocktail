@@ -1,0 +1,25 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1 0 auto;
+}
+
+i {
+  color: $orange;
+
+  a {
+  font-family: "Open Sans";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding-left: 5px;
+  }
+}

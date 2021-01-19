@@ -1,0 +1,31 @@
+.btn {
+  color: $black;
+  font-weight: light;
+  background-color: $pink;
+  border: none;
+   &:hover {
+  background-color: $orange;
+}
+}
+
+form {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: $orange;
+  margin-bottom: 20px;
+}
+
+// ul {
+//   margin-left: 0;
+//   font-weight: light;
+// }
+
+// .ml-3 {
+//   color: $pink;
+//   font-weight: light;
+//   margin-left: 0;
+// }
+

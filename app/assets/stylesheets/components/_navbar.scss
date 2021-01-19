@@ -1,6 +1,14 @@
+.navbar {
+  background-color: $black;
+  a{
+    color: $orange;
+  }
+  height: 50px;
+}
+
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background-color: $red;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -8,5 +16,6 @@
 }
 
 .navbar-lewagon .navbar-brand img {
-  width: 40px;
+  width: 50px;
+  background-color: $red;
 }
