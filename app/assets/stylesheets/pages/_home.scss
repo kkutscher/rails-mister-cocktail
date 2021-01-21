@@ -1,1 +1,40 @@
 // Specific CSS for your home-page
+.home-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url("https://res.cloudinary.com/dm7ltibmv/image/upload/v1611253307/adam-wilson-6UIonphZA5o-unsplash_yjnm5d.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  padding-left: 0;
+  font-weight: bold;
+}
+
+h4 {
+  color: $pink;
+}
+
+.container {
+   .home-btn {
+  color: $white;
+  background-color: $pink;
+  border: 1px solid $pink;
+  border-radius: 8px;
+  padding: 0.375rem 0.75rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  margin-top: 20px;
+  &:hover {
+    text-decoration: none;
+    background-color: $orange;
+    color: $black;
+    transition: 0.5s;
+  }
+}
+}
+
+

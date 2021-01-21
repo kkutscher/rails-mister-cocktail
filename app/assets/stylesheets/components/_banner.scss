@@ -18,3 +18,13 @@
   opacity: .7;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
 }
+
+.new-cocktail-banner {
+  background-image: linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)), url("https://res.cloudinary.com/dm7ltibmv/image/upload/v1611253307/adam-wilson-6UIonphZA5o-unsplash_yjnm5d.jpg");
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-content: center;
+  align-items: center;
+}
